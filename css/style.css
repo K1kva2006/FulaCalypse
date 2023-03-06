@@ -1,66 +1,81 @@
 body {
-    background-color: rgb(16, 11, 160);
+  background-color: rgb(16, 11, 160);
 }
 section {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 .title {
-    color: rgb(199, 0, 0);
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 30px;
-    font-weight: bold;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    cursor: default;
+  color: rgb(199, 0, 0);
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: default;
 }
 .container {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 15px;
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
 }
 .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 50px;
 }
 .card {
-    padding-bottom: 10px;
-    margin: 10px;
-    border-bottom: 2px solid black;
-    
+  padding-bottom: 10px;
+  margin: 10px;
+  border-bottom: 2px solid black;
+  width: 350px;
 }
 .card-title {
-    color: white;
-    margin-bottom: 20px;
-    font-size: 25px;
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-shadow: 1px 1px 1px rgb(4, 4, 105);
-    cursor: pointer;
-    transition: all 0.15s;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 1px 1px 1px rgb(4, 4, 105);
+  cursor: pointer;
+  -webkit-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+  letter-spacing: 2px;
 }
-.card-title:hover, .audio:hover, .card-download > h3:hover {
-    transform: scale(1.1);
+.card-title:hover,
+.audio:hover,
+.card-download > h3:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .audio {
-    margin-bottom: 15px;
-    transition: all 0.15s;
-    border: 2px solid black;
-    border-radius: 25px;
-    margin-left: 30px;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+  border: 2px solid black;
+  border-radius: 25px;
+  width: 100%;
 }
 
 .card-download {
-    color: rgb(203, 147, 255);
-    font-weight: bold;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    text-decoration: underline;
-    cursor: pointer;
-    transition: all 0.15s;
+  color: rgb(203, 147, 255);
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+  -webkit-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
 }
 .download {
-    transition: all 0.15s;
+  -webkit-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
 }

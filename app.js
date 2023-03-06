@@ -10,6 +10,6 @@ download.forEach((item) => {
 
 downloadButton.forEach((item) => {
   item.addEventListener("click", () => {
-    item.textContent = "გადმოწერილია";
+    item.textContent = "ჩამოტვირთულია";
   });
 });
