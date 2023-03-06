@@ -1,16 +1,22 @@
 body {
-    background-color: rgb(255, 35, 1);
+    background-color: rgb(16, 11, 160);
 }
 section {
     padding-top: 50px;
+}
+.title {
+    color: rgb(199, 0, 0);
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: default;
 }
 .container {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    box-shadow: 0px 0px 0px 6px rgba(45, 29, 223, 0.76);
-    -webkit-box-shadow: 0px 0px 0px 6px rgba(229, 227, 239, 0.76);
-    -moz-box-shadow: 0px 0px 0px 6px rgba(16, 5, 217, 0.76);
     padding: 15px;
 }
 .wrapper {
@@ -22,9 +28,10 @@ section {
     padding-bottom: 10px;
     margin: 10px;
     border-bottom: 2px solid black;
-    width: 350px;
+    
 }
 .card-title {
+    color: white;
     margin-bottom: 20px;
     font-size: 25px;
     text-align: center;
@@ -40,7 +47,9 @@ section {
 .audio {
     margin-bottom: 15px;
     transition: all 0.15s;
-    width: 100%;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-left: 30px;
 }
 
 .card-download {
@@ -52,6 +61,6 @@ section {
     cursor: pointer;
     transition: all 0.15s;
 }
-.card-download > h3 {
+.download {
     transition: all 0.15s;
 }
